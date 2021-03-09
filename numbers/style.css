@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 799px) {
+  div#Margin {
+ /* height: 96px; */
+    height: 8px;
+  }
+
+  input#InputUserText {
+    font-size: 16px;
+    transform: scaleY(0.75);
+    transform: scaleZ(1.0);
+    width: 280px;
+  }
+
+  input#SendButton {
+    width: 56px;
+    height: 24px;
+  }
+
+  textarea#OutputTextarea {
+    position: relative;
+    top: 8px;
+    width: 344px;
+    height: 352px;
+    font-size: 11pt;
+    overflow: hidden;
+    resize: none;
+  }
+
+  div#Menu {
+ /* height: 80px; */
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  div#Margin {
+    height: 8px;
+  }
+
+  input#InputUserText {
+    width: 688px;
+  }
+
+  input#SendButton {
+    width: 56px;
+  }
+
+  textarea#OutputTextarea {
+    position: relative;
+    top: 8px;
+    width: 760px;
+    height: 384px;
+    font-size: 11pt;
+    overflow: hidden;
+    resize: none;
+  }
+
+  div#Menu {
+    height: 32px;
+  }
+}

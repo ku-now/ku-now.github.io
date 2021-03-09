@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+  -webkit-text-size-adjust: 100%;
+  background-color: #99ffcc;
+}
+
+td#TitleFrame {
+  background-color: #6699ff;
+}
+
+span#TitleContent {
+  color: #99ffcc;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+div#Menu {
+  height: 64px;
+}
+/*
+@media screen and (max-width: 799px) {
+  div#Margin {
+    height: 160px;
+  }
+}
+
+@media screen and (min-width: 800px) {*/
+  div#Margin {
+    height: 8px;
+  }/*
+}*/

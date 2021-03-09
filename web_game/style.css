@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+div#bg {
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+}
+
+div[id^="enemy"] {
+  position: absolute;
+  z-index: 1;
+  top: -24px;
+  left: -24px;
+}
+
+div#player {
+  position: absolute;
+  z-index: 2;
+  top: 244px;
+  left: 244px;
+}
+
+div#Score {
+  position: absolute;
+  top: 528px;
+  font-size: 20px;
+}
+
+div#GetDown {
+  position: absolute;
+  top: 536px;
+  left: 360px;
+}
+
+div#Menu {
+  position: absolute;
+  top: 576px;
+  left: 216px;
+}

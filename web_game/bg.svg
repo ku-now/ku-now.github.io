@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="512px" height="512px">
+
+<path d="M0,0 H512 V512 H-512 Z" fill="green"/>
+
+<path d="M28,0 V512 Z" stroke="pink"/>
+<path d="M52,0 V512 Z" stroke="black"/>
+<path d="M76,0 V512 Z" stroke="black"/>
+<path d="M100,0 V512 Z" stroke="black"/>
+<path d="M124,0 V512 Z" stroke="black"/>
+<path d="M148,0 V512 Z" stroke="black"/>
+<path d="M172,0 V512 Z" stroke="black"/>
+<path d="M196,0 V512 Z" stroke="black"/>
+<path d="M220,0 V512 Z" stroke="black"/>
+<path d="M244,0 V512 Z" stroke="black"/>
+<path d="M268,0 V512 Z" stroke="black"/>
+<path d="M292,0 V512 Z" stroke="black"/>
+<path d="M316,0 V512 Z" stroke="black"/>
+<path d="M340,0 V512 Z" stroke="black"/>
+<path d="M364,0 V512 Z" stroke="black"/>
+<path d="M388,0 V512 Z" stroke="black"/>
+<path d="M412,0 V512 Z" stroke="black"/>
+<path d="M436,0 V512 Z" stroke="black"/>
+<path d="M460,0 V512 Z" stroke="black"/>
+<path d="M484,0 V512 Z" stroke="pink"/>
+
+<path d="M0,28 H512 Z" stroke="pink"/>
+<path d="M0,52 H512 Z" stroke="black"/>
+<path d="M0,76 H512 Z" stroke="black"/>
+<path d="M0,100 H512 Z" stroke="black"/>
+<path d="M0,124 H512 Z" stroke="black"/>
+<path d="M0,148 H512 Z" stroke="black"/>
+<path d="M0,172 H512 Z" stroke="black"/>
+<path d="M0,196 H512 Z" stroke="black"/>
+<path d="M0,220 H512 Z" stroke="black"/>
+<path d="M0,244 H512 Z" stroke="black"/>
+<path d="M0,268 H512 Z" stroke="black"/>
+<path d="M0,292 H512 Z" stroke="black"/>
+<path d="M0,316 H512 Z" stroke="black"/>
+<path d="M0,340 H512 Z" stroke="black"/>
+<path d="M0,364 H512 Z" stroke="black"/>
+<path d="M0,388 H512 Z" stroke="black"/>
+<path d="M0,412 H512 Z" stroke="black"/>
+<path d="M0,436 H512 Z" stroke="black"/>
+<path d="M0,460 H512 Z" stroke="black"/>
+<path d="M0,484 H512 Z" stroke="pink"/>
+
+</svg>

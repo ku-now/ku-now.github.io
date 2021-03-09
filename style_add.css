@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+  background: linear-gradient(to bottom, #52cc7a, #5ce68a);
+  background: -webkit-linear-gradient(top, #52cc7a, #5ce68a);
+  background: -moz-linear-gradient(top, #52cc7a, #5ce68a);
+}
+
+#head {
+  background: linear-gradient(to bottom, #5782d9, #5c8ae6);
+  background: -webkit-linear-gradient(top, #5782d9, #5c8ae6);
+  background: -moz-linear-gradient(top, #5782d9, #5c8ae6);
+}
+
+#footer1 {
+  color:#ffffff;
+  font-size:240%;
+  font-style:italic;
+  font-weight:bold;
+}
+
+#footer2 {
+  color:#131313;
+  text-align:right;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+#menu {
+  line-height: 1.7;
+}
+
+#share {
+  text-align: right;
+  padding: 0 60px 0 0;
+}
