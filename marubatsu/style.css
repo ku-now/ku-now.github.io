@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+div#Menu {
+  height: 32px;
+}
