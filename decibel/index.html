@@ -7,14 +7,13 @@
     <title>デシベル計算(加減乗除)</title>
   </head>
   <body>
-    <div id="Margin">
-    </div>
-    <div id="Main">
+    <div id="Main1">
       <p>
         デシベル値1：
         <input type="number" id="input1" value="0" step="any">
+        dB
         <br>
-        <select id="func">
+        <select id="func1">
           <option value="1" selected>×</option>
           <option value="2">÷</option>
           <option value="3">+</option>
@@ -23,12 +22,32 @@
         <br>
         デシベル値2：
         <input type="number" id="input2" value="0" step="any">
+        dB
         <br>
       </p>
       <div id="Result">
         ---dB
       </div>
-      <input type="button" id="SendButton" value="計算" onclick="Calc();">
+      <input type="button" id="SendButton1" value="計算" onclick="Calc();">
+    </div>
+    <hr>
+    <div id="Main2">
+      <p>
+        デシベル：
+        <input type="number" id="input3" value="0" step="any">
+        dB
+        <br>
+        <select id="func2">
+          <option value="1" selected>↓</option>
+          <option value="2">↑</option>
+        </select>
+        <br>
+        倍率：
+        <input type="number" id="input4" value="0" step="any">
+        倍
+        <br>
+      </p>
+      <input type="button" id="SendButton2" value="変換" onclick="Convert();">
     </div>
     <div id="Menu">
       <p>
