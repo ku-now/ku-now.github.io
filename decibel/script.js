@@ -1,10 +1,10 @@
 let Calc = () => {
   let value = 0.0;
 
-  const coef = parseInt(document.getElementById('form1').radio1.value);
+  const coef    = parseInt(document.getElementById('form1').radio1.value);
+  const funcNum = parseInt(document.getElementById('func1').value);
   let val1 = parseFloat(document.getElementById('input1').value);
   let val2 = parseFloat(document.getElementById('input2').value);
-  let funcNum = parseInt(document.getElementById('func1').value);
 
   switch (funcNum) {
     case 1:
@@ -29,10 +29,10 @@ let Calc = () => {
 let Convert = () => {
   let value = 0.0;
 
-  const coef = parseInt(document.getElementById('form1').radio1.value);
+  const coef    = parseInt(document.getElementById('form1').radio1.value);
+  const funcNum = parseInt(document.getElementById('func2').value);
   let val1 = parseFloat(document.getElementById('input3').value);
   let val2 = parseFloat(document.getElementById('input4').value);
-  let funcNum = parseInt(document.getElementById('func2').value);
 
   switch (funcNum) {
     case 1:
