@@ -9,6 +9,18 @@
   <body>
     <div id="Main1">
       <p>
+        <form id="form1">
+          <input type="radio" name="radio1" value="10"> 
+          10倍=10dB (電力・パワー比など)
+          <br>
+          <input type="radio" name="radio1" value="20" checked> 
+          10倍=20dB (電圧・音圧など)
+        </form>
+      </p>
+    </div>
+    <hr>
+    <div id="Main2">
+      <p>
         デシベル値1：
         <input type="number" id="input1" value="0" step="any">
         dB
@@ -31,7 +43,7 @@
       <input type="button" id="SendButton1" value="計算" onclick="Calc();">
     </div>
     <hr>
-    <div id="Main2">
+    <div id="Main3">
       <p>
         デシベル：
         <input type="number" id="input3" value="0" step="any">
