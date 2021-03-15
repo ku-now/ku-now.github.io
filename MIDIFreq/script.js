@@ -9,8 +9,10 @@ let CalcFrequency = () => {
   let BendNum    = parseInt(document.getElementById('PitchBendNum').value);
   let BendRenge  = parseInt(document.getElementById('BendRengeNum').value);
 
-  Frequency = ReferenceFreq * Math.pow(2, (NoteNumber - ReferenceNote) / 12) *
-                              Math.pow(2, BendNum / (8192 * 12 / BendRenge));
+  Frequency *= Math.pow(2, (NoteNumber - ReferenceNote) / 12);
+
+  Frequency *= (BendNum < 0) ? Math.pow(2, BendNum / (8192 * 12 / BendRenge)) :
+                               Math.pow(2, BendNum / (8191 * 12 / BendRenge));
 
   document.getElementById('Result').innerHTML = `${Frequency}Hz`;
 };
