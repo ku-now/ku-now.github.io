@@ -12,23 +12,11 @@ input {
 div#Result {
   font-size: 20px;
 }
-/*
-@media screen and (max-width: 799px) {
-  div#Margin {
-    height: 96px;
-  }
 
-  div#Menu {
-    height: 80px;
-  }
+div#Margin {
+  height: 8px;
 }
 
-@media screen and (min-width: 800px) {*/
-  div#Margin {
-    height: 8px;
-  }
-
-  div#Menu {
-    height: 32px;
-  }/*
-}*/
+div#Menu {
+  height: 32px;
+}

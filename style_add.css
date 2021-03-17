@@ -13,16 +13,16 @@ body {
 }
 
 #footer1 {
-  color:#ffffff;
-  font-size:240%;
-  font-style:italic;
-  font-weight:bold;
+  color: #ffffff;
+  font-size: 240%;
+  font-style: italic;
+  font-weight: bold;
 }
 
 #footer2 {
-  color:#131313;
-  text-align:right;
-  font-weight:bold;
+  color: #131313;
+  text-align: right;
+  font-weight: bold;
   text-decoration: underline;
 }
 
