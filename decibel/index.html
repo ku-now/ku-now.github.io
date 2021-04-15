@@ -68,8 +68,16 @@
     </div>
     <script>
       document.onkeyup = () => {
-        if (event.key === 'Enter')
-          Calc();
+        if (event.key === 'Enter') {
+          let form = document.activeElement.id;
+
+          if (form === 'input1' || form === 'input2') {
+            Calc();
+
+          } else if (form === 'input3' || form === 'input4') {
+            Convert();
+          }
+        }
       };
     </script>
   </body>
