@@ -5,10 +5,18 @@ body {
   text-align: center;
 }
 
-div#Menu {
-  height: 32px;
+div#Margin {
+  height: 8px;
+}
+
+input[type="button"] {
+  width: 96px;
 }
 
 div#Result {
   font-size: 20px;
+}
+
+div#Menu {
+  height: 32px;
 }

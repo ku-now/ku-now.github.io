@@ -16,11 +16,6 @@ let ConvertNum = str =>    // 非数値ならそのまま(type:string)返す
 let DecisionNumRange = num =>    // 上限数値を決める
   (num !== "" && num >= LimDefault) ? num : LimDefault;
 
-let PressKey = () => {
-  if (event.key === 'Enter')
-    SendUserText();    // 入力中にEnterを押したら送信する
-};
-
 let OutputTextarea = inputStr => {
   let objTextarea = document.getElementById('OutputTextarea');
 

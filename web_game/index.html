@@ -46,16 +46,7 @@
     <div id="player">
       <img src="player.svg" alt="自">
     </div>
-    <script>
-      let interval = 50;
 
-      if (window.location.search !== "") {
-        interval = parseInt(decodeURIComponent(location.search.match(/eco=(.*?)(&|$)/)[1]));
-      }
-
-      document.onkeydown = MovePlayer;    // キーオン検出
-      setInterval(AvoidEngine, interval);    // 50ms毎に実行
-    </script>
     <div id="Score">
     </div>
     <div id="GetDown">
@@ -66,5 +57,15 @@
     <div id="Menu">
       <a href="../index.html">TOPに戻る</a>
     </div>
+    <script>
+      let interval = 50;
+
+      if (window.location.search !== "") {
+        interval = parseInt(decodeURIComponent(location.search.match(/eco=(.*?)(&|$)/)[1]));
+      }
+
+      document.onkeydown = MovePlayer;    // キーオン検出
+      setInterval(AvoidEngine, interval);    // 50ms毎に実行
+    </script>
   </body>
 </html>

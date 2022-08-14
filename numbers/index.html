@@ -10,7 +10,7 @@
     <div id="Margin">
     </div>
     <div id="Transmisson">
-      <input type="text" id="InputUserText" maxlength="9" onkeydown="PressKey();">
+      <input type="text" id="InputUserText" maxlength="9">
       <input type="button" id="SendButton" value="送信" onclick="SendUserText();">
     </div>
     <div id="Reception">
@@ -18,10 +18,14 @@
     </div>
     <div id="Menu">
       <p>
-      <a href="../index.html">TOPに戻る</a>
+        <a href="../index.html">TOPに戻る</a>
       </p>
     </div>
     <script>
+      document.onkeyup = () => {
+        if (event.key === 'Enter')
+          SendUserText();    // 入力中にEnterを押したら送信する
+      };
       setTimeout(()=>Init(), 1500);
     </script>
   </body>

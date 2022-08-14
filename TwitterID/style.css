@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+div#Margin {
+  height: 8px;
+}
+
+input#TwitterURL {
+  width: 268px;
+}
+
+input[type="button"] {
+  width: 96px;
+}
+
+div#Result {
+  font-size: 20px;
+}
+
+div#Menu {
+  height: 32px;
+}

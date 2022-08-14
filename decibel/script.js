@@ -10,16 +10,25 @@ let Calc = () => {
     case 1:
       value = coef * Math.log10(Math.pow(10, val1 / coef) * Math.pow(10, val2 / coef));
       break;
+
     case 2:
       value = coef * Math.log10(Math.pow(10, val1 / coef) / Math.pow(10, val2 / coef));
       break;
+
     case 3:
       value = coef * Math.log10(Math.pow(10, val1 / coef) + Math.pow(10, val2 / coef));
       break;
+
     case 4:
-      val1 = Math.pow(10, val1 / coef);
-      val2 = Math.pow(10, val2 / coef);
-      value = ((val1 - val2) > 0) ? (coef * Math.log10(val1 - val2)) : 0;
+      if (val1 > val2) {
+        value = coef * Math.log10(Math.pow(10, val1 / coef) - Math.pow(10, val2 / coef));
+        document.getElementById('Result').style.color = "000000";
+
+      } else {
+        value = 0;
+        document.getElementById('Result').style.color = "ff0000";
+      }
+
       break;
   }
 
@@ -39,8 +48,17 @@ let Convert = () => {
       value = Math.pow(10, val1 / coef);
       document.getElementById('input4').value = value;
       break;
+
     case 2:
-      value = (val2 > 0) ? (coef * Math.log10(val2)) : 0;
+      if (val2 > 0) {
+        value = coef * Math.log10(val2);
+        document.getElementById('input3').style.color = "000000";
+
+      } else {
+        value = 0;
+        document.getElementById('input3').style.color = "ff0000";
+      }
+
       document.getElementById('input3').value = value;
       break;
   }

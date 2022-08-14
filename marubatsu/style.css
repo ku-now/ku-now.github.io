@@ -2,6 +2,19 @@
 
 body {
   -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+div#Margin {
+  height: 8px;
+}
+
+input[type="button"] {
+  width: 96px;
+}
+
+table[id^="tbl"] {
+  margin: auto;
 }
 
 div#Menu {

@@ -5,16 +5,16 @@ body {
   text-align: center;
 }
 
+div#Margin {
+  height: 8px;
+}
+
 input {
   width: 96px;
 }
 
 div#Result {
   font-size: 20px;
-}
-
-div#Margin {
-  height: 8px;
 }
 
 div#Menu {

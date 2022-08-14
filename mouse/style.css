@@ -2,6 +2,15 @@
 
 body {
   -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+div#Margin {
+  height: 8px;
+}
+
+input {
+  width: 130px;
 }
 
 div#Menu {
