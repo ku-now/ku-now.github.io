@@ -1,11 +1,14 @@
 const TimeOffset = 1288834974657;
 
 let CalcDateTime = () => {
-  let StatusID = document.getElementById('TwitterURL').value.match(/\d+/g);
+  let StatusID = document.getElementById('TwitterURL').value;
   let TwitTime = 0;
 
-  if (StatusID) {
-    StatusID = parseInt(StatusID.slice(-1)[0]);
+  if (StatusID.indexOf('?') > 0)
+    StatusID = StatusID.substr(0, StatusID.indexOf('?'));
+
+  if (StatusID.match(/\d+/g)) {
+    StatusID = parseInt(StatusID.match(/\d+/g).slice(-1)[0]);
 
   } else {
     document.getElementById('Result').innerHTML = "----/--/-- --:--:--.---";
